@@ -1,11 +1,16 @@
-sentence-transformers==2.2.2
-langchain
 flask
+fastapi==0.100.0
+mangum==0.17.0
+python-dotenv==1.0.0
+sentence-transformers==2.2.2
+langchain      
+groq              
+pinecone-client     
+pinecone[grpc]      
 pypdf
-python-dotenv
-pinecone[grpc]
 langchain-pinecone
 langchain-openai
 langchain-community
 langchain-experimental
+langchain-groq
 -e .
